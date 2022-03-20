@@ -3,10 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-red-500">
+    <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p className="underline bg">
+        <p className="underline">
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
