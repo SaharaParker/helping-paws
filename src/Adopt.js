@@ -8,7 +8,8 @@ function Adopt() {
             </div>
             <div className="flex justify-evenly">
                 <div className="border-4 border-powder-blue-500 p-3 rounded-lg">
-                    <div></div>
+                    <div>
+                    </div>
                     <div className="flex space-x-3">
                         <ul>age</ul>
                         <ul>breed</ul>
