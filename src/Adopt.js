@@ -1,15 +1,11 @@
 
-
-function Adopt() {
+function Adopt({pet_name, image, age, breed, location}) {
     return(
-        <div>
+        <div className="justify-center">
             <div>
-                <h2 className="text-2xl font-bold text-atomic-tangerine-500">Adoptable Animals</h2>
-            </div>
-            <div>
-                <img src={image} alt={name} />
-                <h3>{name}</h3>
-                <p>{age}</p>
+               <img src={image} alt={pet_name} className="w-72 h-72" />
+                <h1 className="font-bold text-3xl text-atomic-tangerine-500">{pet_name}</h1>
+                <p>{age} | {breed} | {location}</p>
             </div>
         </div>
     );
