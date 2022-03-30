@@ -113,9 +113,17 @@ function Animals() {
     ];
     return (
         <div>
-            {adoptAnimals.map((adopt) => (
-                <Adopt key={adopt.id} image={adopt.image} pet_name={adopt.pet_name} breed={adopt.breed} age={adopt.age} location={adopt.location} />
-            ))}
+            <div className="text-4xl">
+                <h1 className="font-bold text-center text-atomic-tangerine-500">
+                Adoptable Animals
+                </h1>
+            </div>
+            <div className="flex space-x-4">
+                {adoptAnimals.map((adopt) => (
+                <Adopt key={adopt.id} image={adopt.image} pet_name={adopt.pet_name} breed={adopt.breed} age={adopt.age}
+                       location={adopt.location}/>
+                ))}
+            </div>
         </div>
     );
 }
