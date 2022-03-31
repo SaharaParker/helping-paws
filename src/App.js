@@ -4,7 +4,7 @@ import Animals from "./Animals";
 
 function App() {
   return (
-    <div className="bg-sandwisp-500">
+      <div className="App bg-sandwisp-500">
     <Searchbar />
     <Animals />
     </div>
