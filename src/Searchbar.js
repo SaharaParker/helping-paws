@@ -16,7 +16,7 @@ function Searchbar() {
         console.log(tasks);
     }
     return(
-        <div className="flex float-right border-2 border-atomic-tangerine-500 rounded-2xl">
+        <div className="bg-atomic-tangerine-500 flex float-right border-2 border-atomic-tangerine-500 rounded-2xl">
             <input type="text"
                    placeholder="Search Here!"
                    onChange={Type} className="rounded-2xl text-center p-1"/><br />
