@@ -118,11 +118,14 @@ function Animals() {
                 Adoptable Animals
                 </h1>
             </div>
-            <div className="flex space-x-4">
+            <div className="grid grid-cols-2 gap-4">
                 {adoptAnimals.map((adopt) => (
                 <Adopt key={adopt.id} image={adopt.image} pet_name={adopt.pet_name} breed={adopt.breed} age={adopt.age}
                        location={adopt.location}/>
                 ))}
+            </div>
+            <div>
+                <footer className="text-biscay-500 hover:text-powder-blue-500 underline"><a href="#">Contact Us!</a></footer>
             </div>
         </div>
     );
