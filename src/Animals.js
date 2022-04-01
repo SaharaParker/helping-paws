@@ -118,7 +118,7 @@ function Animals() {
                 Adoptable Animals
                 </h1>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-4 justify-items-center">
                 {adoptAnimals.map((adopt) => (
                 <Adopt key={adopt.id} image={adopt.image} pet_name={adopt.pet_name} breed={adopt.breed} age={adopt.age}
                        location={adopt.location}/>
